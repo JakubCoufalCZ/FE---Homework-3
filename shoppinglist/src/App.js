@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faPlus, faTrash, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 import { TransitionGroup, CSSTransition } from 'react-transition-group';
 import ShoppingList from './ShoppingList';
-
+//App
 const App = () => {
   const [data, setData] = useState({
     lists: [
